@@ -1,0 +1,314 @@
+/* Titles in Vanguard Font in White*/
+h3 {
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 60px;
+}
+
+body {
+      background-color: #000000;
+      color: white;
+      font-family: Impact, sans-serif;
+      text-align: center;
+      padding: 20px;
+      margin: 0;
+    }
+
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  color: white;
+  padding: 8px 10px;
+  background-color: inherit;
+  font-size: 1.2em;
+
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar1 a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a red background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #FF0000;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+    .navbar1 {
+      display: flex;
+      justify-content: space-around;
+      background-color: #000000;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .navbar1 a {
+      color: white;
+      font-size: 1.2em;
+      text-decoration: none;
+		padding: 8px 10px;
+      border-radius: 8px;
+    }
+    .navbar a:hover {
+      background-color: #FF0000;
+    }
+
+
+
+    .title, .section-title {
+      font-size: 4em;
+      color: red;
+      font-weight: bold;
+    }
+    .photo-area {
+      margin: 20px auto;
+      max-width: 1000px;
+    }
+    .photo-area img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .photo-area-small img {
+      width: 50%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .description, .about-text, .competition-text {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
+      text-align: center;
+    }
+    .photo-section {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+    .photo {
+      width: 48%;
+      background-color: #000000;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .photo img {
+      width: 100%;
+      height: 55%;
+    }
+    .caption {
+      margin-top: 10px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    .competition-section {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      text-align: left;
+    }
+    .competition {
+      width: 48%;
+      background-color: #000000;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .competition h3 {
+      color: red;
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+    .contact-section {
+      background-color: #000000;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .contact-section h2 {
+      font-size: 2.5em;
+      color: red;
+      font-weight: bold;
+    }
+    .contact-section p, .contact-section a {
+      font-size: 1.2em;
+      color: white;
+    }
+    .contact-section a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    .contact-section 
+
+		{ A:link { color: #FFFFFF; text-decoration: none } 
+A:visited { color: #FF0000; text-decoration: none }
+A:hover { text-decoration: underline }
+A:active { color: #FF0000; text-decoration: underline }}
+
+	  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+
+	  
+@media screen and (max-width: 400px) {
+   #one { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000; }
+   .sidenav {top: 150px;
+   right: 0px;}
+   h3:before {height: 125px;}
+   .content { padding-top: 125}
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}	
+}
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 0px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: center;
+  width: 33%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: black;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
